@@ -1,0 +1,63 @@
+@font-face{
+    src: url(fonts/Poppins-Light.ttf);
+    font-family: Poplight
+}
+
+body{
+    background-image:url('/projectpics/bgnight.png');
+    font-family: Poplight, Cochin, Georgia, Times, 'Times New Roman';
+    color: white;
+}
+
+.link{
+    color:white;
+    text-decoration: none;
+    width: 200;
+}
+
+.link2{
+    color:white; 
+    text-decoration: none;
+}
+
+#white{
+    color:white;
+}
+
+#h4{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#div0{
+    padding: 1em;
+    border: 3px groove darkgrey;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+form{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#fp{
+    color: white;
+    font-size: 11px;
+}
+
+#submit{
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poplight;
+    font-weight: bold;
+}
+
+.submitbutton{
+    text-align: center;
+}

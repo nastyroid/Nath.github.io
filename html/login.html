@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Forms</title>
+
+    <style>
+    
+      .center{
+        display:flex;
+        align-content: center;
+        align-items: center;
+      }
+
+      div.groove{border-style:groove;}
+
+    </style>
+
+</head>
+
+<body style="background-image: url('/projectpics/rq3.jpg'); font-family: arial;">
+  
+<form class="center" method="POST" enctype="multipart/form-data">
+
+  <div class="groove" style="border-color: lightgrey; border-radius:10px; background-color:white; border-width: 400;">
+      
+      <div>
+          <label for="fname" style="text-align: center;">First Name:</label>
+          <input type="text" id="fname" name="fname" placeholder="roji">
+      </div>
+
+      <br>
+      
+      <div>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname" placeholder="dave" required>
+      </div>
+      
+      <br>
+
+      <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" maxlength="12" required>
+      </div>
+      
+      <br>
+
+      <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="roji509@email.com" required>
+      </div>
+
+      <br>
+
+      <div>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      </div>
+
+      <br>
+
+      <div>
+          <label for="birthday">Birthdate:</label>
+          <input type="date" id="birthday" name="birthday" required>
+      </div>
+
+      <br>
+
+      <div>
+          <label for="sex">Sex:</label>
+
+          <label for="Male"> Male</label>
+          <input type="radio" id="Male" name="sex" required value="Male">
+
+          <label for="Female">Female</label>
+          <input type="radio" id="Female" name="sex" value="Female">
+
+          <label for="black">black</label>
+          <input type="radio" id="black" name="sex" value="black">
+      </div>
+
+      <br>
+
+      <div>
+          <label for="other">Other:</label>
+          <select id="other" name="other">
+                <option value="blank">blank</option>
+                <option value="vegan">vegan</option>
+                <option value="fat">fat</option>
+                <option value="unacceptable to society">unacceptable to society</option>
+                <option value="binary">binary</option>
+                <option value="believer">believer</option>
+                <option value="flat earther">flat earther</option>
+          </select>
+      </div>
+
+      <br>
+
+      <div class="center">
+          <label for="rulesandreg">Rules and Regulations</label>
+          <input type="checkbox" id="rulesandreg" name="rulesandreg" required>
+      </div>
+      <div class="center">
+          <label for="termsandconds">Terms and Conditions</label>
+          <input type="checkbox" id="termsandconds" name="termsandconds" required>
+      </div>
+
+      <br>
+
+      <div>
+          <label for="file">File:</label>
+          <input type="file" id="file" accept="image/png, image/jpeg, video">
+      </div>
+
+      <br>
+
+      <div>
+          <input type="submit">
+      </div>
+
+      <br>
+
+  </div>
+
+</form>
+
+</body>
+
+</html>
